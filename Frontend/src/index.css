@@ -1,0 +1,40 @@
+:root {
+    --beige: #F2EBE0;
+    --sand: #DCCEB8;
+    --deep-blue: #0B2B4F;
+    --baby-blue: #3DACB9;
+    --darker-blue: #05091a;
+    --green: #006233;
+    --deep-light-blue: #0A112B;
+    --beige-rgba: 242, 235, 224;
+    --sand-rgba: 220, 206, 184;
+    --deep-blue-rgba: 11, 43, 79;
+    --baby-blue-rgba: 61, 172, 185;
+    --darker-blue-rgba: 7, 14, 30;
+    --green-rgba: 0, 98, 51;
+    --deep-light-blue-rgba: 10, 17, 43;
+    --muted: 200, 233, 240;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: var(--beige);
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+
+body::-webkit-scrollbar
+{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+NavLink, a{
+  text-decoration: none;
+}

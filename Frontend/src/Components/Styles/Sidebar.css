@@ -1,0 +1,51 @@
+
+.sidebar-profile-foto{
+    position: fixed;
+    margin-top: 2px;
+    margin-left: 50px;
+    height: 37px;
+    width: 37px;
+    border-radius: 50px;
+    border: 4px solid var(--sand);
+}
+
+.sidebar-Profile-Text{
+    position: fixed;
+    margin-top: -35px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 25px;
+    color: var(--beige);
+    display: inline-block;
+}
+
+.Sidebar {
+    position: fixed;
+    background-color:rgba(var(--deep-blue-rgba), 1);
+    height: 40px;
+    min-width: 1600px;
+    top: 0;
+    box-shadow: 0 4px 12px rgba(11, 43, 79, 1); 
+    z-index: 99;
+}
+
+.searchBar{
+    margin-top: -30px;
+    justify-content: center;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    background-color: var(--beige);
+    border-radius: 25px;
+    height: 30px;
+    width: 400px;
+    padding: 0 25px;
+    box-shadow: 0 4px 10px rgba(var(--deep-blue-rgba), 1);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border: none;
+}

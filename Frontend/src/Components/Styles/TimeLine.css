@@ -1,0 +1,23 @@
+.Content-Cards{
+    padding: 50px;
+    padding-top: 300px;
+    padding-left: 590px;
+    background-color: var(--deep-blue);
+}
+
+.compass-rose{
+    opacity: 0.3;
+    margin-left: 1400px;
+    width: 100px;
+    height: 100px;
+    background-color: var(--deep-blue);
+    margin-top: -300px;
+    margin-bottom: 0px;
+    border-radius: 50px;
+    animation: compass-spin 60s linear infinite;
+}
+
+@keyframes compass-spin {
+    from { transform: translateY(-50%) rotate(0deg); }
+    to   { transform: translateY(-50%) rotate(360deg); }
+}

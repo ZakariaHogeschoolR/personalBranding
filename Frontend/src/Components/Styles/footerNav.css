@@ -1,0 +1,65 @@
+.footerNav{
+    display: flex;
+    margin-top: 30px;
+    margin-left: -65px;
+    gap: 20px;
+}
+
+.github{
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid var(--sand);
+}
+
+.github:hover{
+    rotate: -5deg;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid var(--sand);
+}
+
+.linkdin{
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    background-color: #0288D1;
+    border-radius: 10px;
+    border: 3px solid var(--sand);
+}
+
+.linkdin:hover{
+    rotate: -5deg;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    background-color: #0288D1;
+    border-radius: 10px;
+    border: 3px solid var(--sand);
+}
+
+.email{
+    padding-top: 5px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid var(--sand);
+}
+
+.email:hover{
+    rotate: -5deg;
+    padding-top: 5px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid var(--sand);
+}
