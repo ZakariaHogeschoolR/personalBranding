@@ -1,10 +1,10 @@
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 import '../Styles/ActivityPage.css';
 import Stars from '../common/stars';
 
 const ActivityPage = () => {
-    const { id } = useParams<{ id: string }>();
+    // const { id } = useParams<{ id: string }>();
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

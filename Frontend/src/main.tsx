@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '../src/index.css';
 import ActivityPage from './Components/Pages/ActivityPage';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Portifolio from './Components/Portifolio/Portifolio';
 import Layout from './Components/Layout/Layout';
 import Home from './Components/Pages/Home';
@@ -11,7 +11,7 @@ import About from './Components/Pages/About';
 import TimeLine from './Components/Pages/TimeLine';
 import ActivityLayout from './Components/ActivityLayout/ActivityLayout';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Layout />,          // global wrapper

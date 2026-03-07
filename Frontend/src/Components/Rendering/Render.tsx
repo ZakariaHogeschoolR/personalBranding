@@ -1,5 +1,5 @@
 import '../Styles/Render.css';
-import { NavLink, Navigate} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Stars from '../common/stars';
 
 type Activity = {

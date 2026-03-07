@@ -2,7 +2,6 @@ import Github from '../../assets/icons8-github.gif';
 import Linkdin from '../../assets/icons8-linkedin.svg';
 import Email from '../../assets/icons8-email.gif';
 import '../../Components/Styles/footerNav.css';
-import { Link } from 'react-router-dom';
 
 const FooterNav = () => {
     return (

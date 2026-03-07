@@ -4,7 +4,6 @@ import { format } from 'date-fns';
 import Stars from './stars';
 
 const Opleiding = () => {
-    const monts = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const [date, setDate] = useState(new Date());
 
     useEffect(() => {

@@ -1,6 +1,0 @@
-@personalBranding_HostAddress = http://localhost:5115
-
-GET {{personalBranding_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
