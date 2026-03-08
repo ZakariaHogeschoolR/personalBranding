@@ -294,6 +294,106 @@
         box-shadow .25s, border-color .25s;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .welkom-terug {
+        padding: 0 6vw;
+    }
+
+    .Work-experience {
+        margin: 24px 6vw;
+        flex-wrap: nowrap;
+    }
+
+    .opleiding {
+        padding: 0 6vw;
+    }
+
+    .Header {
+        padding: 0 6vw;
+    }
+
+    .sectionHeader {
+        flex-wrap: nowrap;
+    }
+}
+
+/* ── Desktop (1200px – 2600px) ────────────────────────────────────── */
+
+@media screen and (min-width: 1200px) {
+    .welkom-terug {
+        padding: 0 clamp(40px, 5vw, 440px);
+    }
+
+    .date-today {
+        margin-top: -85px;
+    }
+
+    .Work-experience {
+        flex-wrap: nowrap;
+        margin: 24px clamp(40px, 5vw, 390px);
+        gap: 20px;
+    }
+
+    .opleiding {
+        padding: 0 clamp(40px, 5vw, 380px);
+    }
+
+    .Header {
+        padding: 0 clamp(40px, 5vw, 500px);
+    }
+
+    .sectionHeader {
+        flex-wrap: nowrap;
+        gap: clamp(20px, 3vw, 180px);
+    }
+
+    .Headersize3,
+    .Headersize2,
+    .Headersize1 {
+        flex: 0 0 300px;
+    }
+}
+
+/* ── Mobile (max 767px) ───────────────────────────────────────────── */
+
+@media screen and (max-width: 767px) {
+    .date-today {
+        position: static;
+        text-align: left;
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+    .Work-experience {
+        flex-wrap: wrap;
+    }
+
+    .projects,
+    .first,
+    .second,
+    .experience {
+        flex: 1 1 calc(50% - 8px);
+    }
+
+    .sectionHeader {
+        flex-direction: column;
+    }
+
+    .Headersize3,
+    .Headersize2,
+    .Headersize1 {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .Header3,
+    .Header2,
+    .Header1 {
+        width: 100%;
+    }
+}
+/* 
+
 @media screen and (min-width: 1600px) and (max-width: 2600px) 
 {
     .welkom-terug{
@@ -590,4 +690,4 @@
             margin .45s,
             box-shadow .25s, border-color .25s;
     }
-}
+} */
