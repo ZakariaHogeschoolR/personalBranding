@@ -11,7 +11,7 @@ const ActivityPage = () => {
     return (
         <div className="main-content-display">
             <div className='Content'>
-                <Stars/>
+                <Stars num={40}/>
                 <div className="Type">ACTIVITY</div>
                 <div className="Id"><span className="star">☆</span> #001</div>
                 <div className="date-time">10-12-2023</div>

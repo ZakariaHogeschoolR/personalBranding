@@ -77,3 +77,85 @@
     border-radius: 10px;
     border: 3px solid var(--sand);
 }
+
+@media screen and (min-width: 1600px) and (max-width: 2600px) 
+{
+    .Footer{
+        position: fixed;       /* altijd zichtbaar */
+        bottom: 0;          /* onderkant viewport */
+        width: 2086px;
+        height: 50px;          /* hoogte van de overlay footer */
+        background-color: var(--deep-blue);
+        color: var(--ice-blue);
+        text-align: center;
+        font-weight: 600;
+        line-height: 60px;     /* verticaal centreren van tekst */
+        z-index: 1000;   
+        margin-bottom: 0px;      /* boven de scrollable content */
+        box-shadow: 4px 4px 12px rgba(11, 43, 79, 1); 
+    }
+
+    .footer-github{
+        text-align: center;
+        height: 45px;
+        width: 44px;
+        margin-left: 100px;
+        margin-top: -27px;
+        background-color: white;
+        border-radius: 10px;
+        border: 3px solid var(--sand);
+    }
+
+    .footer-github:hover{
+        rotate: -5deg;
+        text-align: center;
+        height: 45px;
+        width: 44px;
+        margin-top: -27px;
+        background-color: white;
+        border-radius: 10px;
+        border: 3px solid var(--sand);
+    }
+
+    .footer-linkdin{
+        text-align: center;
+        height: 40px;
+        width: 44px;
+        margin-top: -27px;
+        background-color: #0288D1;
+        border-radius: 10px;
+        border: 3px solid var(--sand);
+    }
+
+    .footer-linkdin:hover{
+        rotate: -5deg;
+        text-align: center;
+        height: 40px;
+        width: 44px;
+        margin-top: -27px;
+        background-color: #0288D1;
+        border-radius: 10px;
+        border: 3px solid var(--sand);
+    }
+
+    .footer-email{
+        text-align: center;
+        height: 45px;
+        width: 44px;
+        margin-top: -27px;
+        background-color: white;
+        border-radius: 10px;
+        border: 3px solid var(--sand);
+    }
+
+    .footer-email:hover{
+        rotate: -5deg;
+        text-align: center;
+        height: 45px;
+        width: 44px;
+        margin-top: -27px;
+        background-color: white;
+        border-radius: 10px;
+        border: 3px solid var(--sand);
+    }
+}
