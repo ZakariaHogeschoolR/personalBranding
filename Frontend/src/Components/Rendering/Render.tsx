@@ -21,7 +21,7 @@ const Render = ({Activities}: RenderProps) =>{
                 <NavLink to={`/Activity/${activity.Id}`}>
                     <div className="RenderActivity">
                         <div className='renderActivityAgain'>
-                            <Stars/>
+                            <Stars num={10}/>
                             <p className="Name">{activity.Name}</p>
                             <p className="Function">{activity.Function}</p>
                             <p className="Date">{activity.Date}</p>

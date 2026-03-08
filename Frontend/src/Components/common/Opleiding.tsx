@@ -23,21 +23,21 @@ const Opleiding = () => {
             </div>
             <div className="Work-experience">
                 <div className="experience">
-                    <Stars/>
+                    <Stars num={10}/>
                     <p className="yrs">04</p>
                     <p className="experience-txt">YRS EXPERIENCE</p>
                 </div>
                 <div className="projects">
-                    <Stars/>
+                    <Stars num={10}/>
                     <p className="projs">12</p>
                     <p className="projects-txt">PROJECTS</p>
                 </div>
                 <div className="first">
-                    <Stars/>
+                    <Stars num={10}/>
                     <p className="firsts">03</p>
                     <p className="first-txt">INSTITUTION</p>
                 </div>
-                <div className="second"><Stars/><p className="seconds">&</p><p className="second-txt">IDEAS</p></div>
+                <div className="second"><Stars num={10}/><p className="seconds">&</p><p className="second-txt">IDEAS</p></div>
             </div>
             <div className="opleiding">
                 <span className='p-tag'><span className="numbering"><span className="star">☆</span> 01</span> OPLEIDING</span><div className="dashing-borderline"></div>
@@ -45,7 +45,7 @@ const Opleiding = () => {
             <section className='Header'>
                 <div className="sectionHeader">
                     <div className="Headersize1">
-                        <Stars/>
+                        <Stars num={10}/>
                         <div className='Header1'>
                                 <p className="hogeschool-rotterdam">Hogeschool Rotterdam</p>
                                 <div className="hover1">
@@ -55,7 +55,7 @@ const Opleiding = () => {
                         </div>
                     </div>
                     <div className="Headersize2">
-                        <Stars/>
+                        <Stars num={10}/>
                         <div className='Header2'>
                                 <p className="techniek-college-rotterdam">Techniek College Rotterdam</p>
                                 <div className="hover2">
@@ -65,7 +65,7 @@ const Opleiding = () => {
                         </div>
                     </div>
                     <div className="Headersize3">
-                        <Stars/>
+                        <Stars num={10}/>
                         <div className='Header3'>
                                 <p className="zuiderpark-college" >Zuiderpark College</p>
                                 <div className="hover3">
