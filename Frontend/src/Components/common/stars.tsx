@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 
-const StarCanvas = () => {
+type Props = {
+  num:number;
+}
+
+const StarCanvas = ({num}: Props) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -12,7 +16,7 @@ const StarCanvas = () => {
     canvas.width  = parent.offsetWidth;
     canvas.height = parent.offsetHeight;
 
-    const stars = Array.from({ length: 100 }, () => ({
+    const stars = Array.from({ length: num }, () => ({
         // center point the star orbits around
         cx:     Math.random() * canvas.width,
         cy:     Math.random() * canvas.height,
@@ -40,7 +44,7 @@ const StarCanvas = () => {
 
             ctx.beginPath();
             ctx.arc(x, y, s.r, 0, Math.PI * 2);
-            ctx.fillStyle = `rgba(255, 255, 255, ${s.alpha})`;
+            ctx.fillStyle = `rgba(242, 235, 224, 1)`;
             ctx.fill();
         }
 

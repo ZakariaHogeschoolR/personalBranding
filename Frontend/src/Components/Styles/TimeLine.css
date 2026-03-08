@@ -21,3 +21,25 @@
     from { transform: translateY(-50%) rotate(0deg); }
     to   { transform: translateY(-50%) rotate(360deg); }
 }
+
+@media screen and (min-width: 1600px) and (max-width: 2600px) 
+{
+    .Content-Cards{
+        padding: 50px;
+        padding-top: 300px;
+        padding-left: 790px;
+        background-color: var(--deep-blue);
+    }
+
+    .compass-rose{
+        opacity: 0.3;
+        margin-left: 1900px;
+        width: 100px;
+        height: 100px;
+        background-color: var(--deep-blue);
+        margin-top: -300px;
+        margin-bottom: 0px;
+        border-radius: 50px;
+        animation: compass-spin 60s linear infinite;
+    }
+}
