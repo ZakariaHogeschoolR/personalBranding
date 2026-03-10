@@ -120,7 +120,7 @@
         height: 200px;
         padding: 10px;
         padding-top: -10px;
-        padding-left: 100px;
+        padding-left: 0px;
         padding-bottom: 50px;
         margin-bottom: 40px;
         border-top-right-radius: 20px;
@@ -158,6 +158,7 @@
     .Activity-content{
         position: absolute;
         margin-top: -260px;
+        padding-left: 100px;
     }
 
     .point{
@@ -179,23 +180,20 @@
     }
 
     .Activity-Name{
-        margin-left: 50px;
+        margin-left: 10px;
         color: rgba(var(--sand-rgba), 0.7);
     }
 
     .Activity-Function{
-        margin-left: 50px;
         color: rgba(var(--sand-rgba), 0.7);
     }
 
     .Activity-Date{
-        margin-left: 50px;
         color: rgba(var(--sand-rgba), 0.7);
 
     }
 
     .Activity-Category{
-        margin-left: 50px;
         color: rgba(var(--sand-rgba), 0.7);
     }
 
