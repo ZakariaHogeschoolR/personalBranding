@@ -8,6 +8,7 @@ type Activity = {
     Function: string;
     Date: string;
     Category: string;
+    type: string;
 }
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 2,
@@ -26,6 +28,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 3,
@@ -33,6 +36,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 4,
@@ -40,6 +44,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 5,
@@ -47,6 +52,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 6,
@@ -54,6 +60,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 7,
@@ -61,6 +68,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 8,
@@ -68,6 +76,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 9,
@@ -75,6 +84,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 10,
@@ -82,6 +92,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 11,
@@ -89,6 +100,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 12,
@@ -96,6 +108,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 13,
@@ -103,6 +116,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 14,
@@ -110,6 +124,7 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
         },
         {
             Id: 15,
@@ -117,6 +132,247 @@ const Home = () => {
             Function:"Wat is Lorem Ipsum?",
             Date:"10-12-2023",
             Category:"Lorem",
+            type: "Activity"
+        },
+        {
+            Id: 16,
+            Name:"Software Developer",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 17,
+            Name:"Full-Stack Developer",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 18,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 19,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 20,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 21,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 22,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 23,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 24,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 25,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 26,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 27,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 28,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 29,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "InProgress"
+        },
+        {
+            Id: 30,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 31,
+            Name:"Software Developer",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 32,
+            Name:"Full-Stack Developer",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 33,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 34,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 35,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 36,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 37,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 38,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 39,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 40,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 41,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 42,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 43,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 44,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
+        },
+        {
+            Id: 45,
+            Name:"Lorem Ipsum",
+            Function:"Wat is Lorem Ipsum?",
+            Date:"10-12-2023",
+            Category:"Lorem",
+            type: "Completed"
         },
     ];
     return (
@@ -129,7 +385,7 @@ const Home = () => {
                     <p className="Activity" ><em>Recent Activity</em></p>
                     <div className="Container-activities">
                         <div className="Activities">
-                            <Render Activities = {Activities} />
+                            <Render Activities = {Activities.filter(activity => activity.type == "Activity")} />
                         </div>
                     </div>
                     <p className="Projects" ><em>Projects</em></p>
@@ -138,13 +394,13 @@ const Home = () => {
                             <div className='HeaderInProgress'>
                                 <p className="InProgress"><em>In Progress</em></p>
                             </div>
-                            <Render Activities = {Activities} />
+                            <Render Activities = {Activities.filter(activity => activity.type == "InProgress")} />
                         </div>
                         <div className="ProjectsItems-Second">
                             <div className='HeaderCompleted'>
                                 <p className="Completed"><em>Completed</em></p>
                             </div>
-                            <Render Activities = {Activities} />
+                            <Render Activities = {Activities.filter(activity => activity.type == "Completed")} />
                         </div>
                     </div>
                 </div>
