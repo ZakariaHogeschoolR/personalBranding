@@ -29,10 +29,10 @@
 
 .dashing-borderline-activity-projects{
     width: 850px;
-    height: 2px;
+    height: 1px;
     margin-top: -10px;
-    margin-left: 604px;
-    background: repeating-linear-gradient(90deg, var(--baby-blue) 0px, var(--baby-blue) 9px, transparent 6px, transparent 12px);
+    margin-left: 610px;
+    background: repeating-linear-gradient(90deg, var(--baby-blue) 0px, var(--baby-blue) 9px, transparent 6px, transparent 0px);
 }
 
 .Activity{
@@ -43,6 +43,7 @@
     margin-left: 380px;
     margin-top: -10px;
 }
+
 .Projects{
     font-size: 20px;
     font-weight: bold;
