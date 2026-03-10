@@ -110,3 +110,114 @@
     75% { transform: scale(1.25); border-color: var(--sand);   box-shadow: 0 0 12px rgba(var(--sand-rgba), 0.5); border: 5px solid var(--beige);}
     100% { transform: scale(1);    border-color: var(--beige);  box-shadow: none;}
 }
+
+@media screen and (min-width: 1600px) and (max-width: 2600px) 
+{ 
+    .Activities-card{
+        justify-content: center;
+        text-align: left;
+        width: 500px;
+        height: 200px;
+        padding: 10px;
+        padding-top: -10px;
+        padding-left: 100px;
+        padding-bottom: 50px;
+        margin-bottom: 40px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid rgba(var(--beige-rgba), 0.7); 
+        border-left: 5px solid rgba(var(--sand-rgba), 0.7);
+        border-bottom: 5px solid rgba(var(--sand-rgba), 0.7);
+        background-color: var(--deep-blue);
+    }
+
+    .Activities-card:hover{
+        justify-content: center;
+        text-align: left;
+        width: 510px;
+        height: 210px;
+        padding: 10px;
+        padding-top: -10px;
+        padding-left: 100px;
+        padding-bottom: 50px;
+        margin-bottom: 40px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid rgba(var(--beige-rgba), 0.7); 
+        border-left: 5px solid rgba(var(--sand-rgba), 1);
+        border-bottom: 5px solid rgba(var(--sand-rgba), 1);
+        background-color: var(--deep-blue);
+        transition: border-bottom 10s,
+                    border-left 10s;
+    }
+
+    .Activities-card:hover .point{
+        animation: pulsePoint 4s ease infinite;
+    }
+
+    .Activity-content{
+        position: absolute;
+        margin-top: -260px;
+    }
+
+    .point{
+        margin-top: -10px;
+        margin-left: -175px;
+        width: 50px;
+        height: 50px;
+        background-color: var(--deep-blue);
+        border-radius: 50px;
+        border: 1px solid var(--beige);
+    }
+
+    .vertical-Line{
+        margin-top: 0px;
+        margin-left: -150px;
+        width: 1px;
+        height: 200px;
+        background-color: var(--beige);
+    }
+
+    .Activity-Name{
+        margin-left: 50px;
+        color: rgba(var(--sand-rgba), 0.7);
+    }
+
+    .Activity-Function{
+        margin-left: 50px;
+        color: rgba(var(--sand-rgba), 0.7);
+    }
+
+    .Activity-Date{
+        margin-left: 50px;
+        color: rgba(var(--sand-rgba), 0.7);
+
+    }
+
+    .Activity-Category{
+        margin-left: 50px;
+        color: rgba(var(--sand-rgba), 0.7);
+    }
+
+    .Time-Line-Line{
+        background-color: rgba(var(--beige-rgba), 1);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-left: -50px;
+        margin-bottom: 150px;
+        width: 560px;
+        height: 1px;
+        z-index: -1;
+    }
+
+    .Time-Line{
+        margin-left: 200px;
+        margin-top: -200px;
+        color: var(--beige);
+        z-index: 99;
+    }
+
+    .content-timeline{
+        margin-top: -200px;
+    }
+}
