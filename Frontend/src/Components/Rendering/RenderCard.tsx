@@ -23,6 +23,12 @@ const RenderCard = ({Repos}:Prop) =>
     const sortedRepos = Repos.sort((a, b) => 
         new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
     );
+    function dateString(date: string) :string[]
+    {
+        const dateSplitZ = date.split("Z");
+        const dateSplitT = dateSplitZ[0].split("T");
+        return dateSplitT;
+    }
     return(
         <>
             <div className="content-timeline">
@@ -37,7 +43,7 @@ const RenderCard = ({Repos}:Prop) =>
                             <p>
                                 <span className="Activity-Name">{Rep.name}</span><br/>
                                 <span className="Activity-Function"></span><br/>
-                                <span className="Activity-Date">{Rep.created_at}</span><br/>
+                                <span className="Activity-Date">{dateString(Rep.created_at)[0]} {dateString(Rep.created_at)[1]}</span><br/>
                                 <span className="Activity-Category">{Rep.language}</span>
                             </p>
                         </div>

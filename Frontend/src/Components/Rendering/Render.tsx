@@ -21,6 +21,12 @@ type RenderProps = {
 };
 
 const Render = ({Repository}: RenderProps) =>{
+    function dateString(date: string) :string[]
+    {
+        const dateSplitZ = date.split("Z");
+        const dateSplitT = dateSplitZ[0].split("T");
+        return dateSplitT;
+    }
     return (
         <section className="grider">
             {Repository.map((repo: Repo) => (
@@ -30,7 +36,7 @@ const Render = ({Repository}: RenderProps) =>{
                             <Stars num={10}/>
                             <p className="Name">{repo.name}</p>
                             <p className="Function"></p>
-                            <p className="Date">{repo.created_at}</p>
+                            <p className="Date">{dateString(repo.created_at)[0]}</p>
                         </div>
                     </div>
                 </NavLink>

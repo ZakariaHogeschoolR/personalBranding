@@ -2,10 +2,27 @@ import { useEffect, useState } from "react";
 import '../Styles/Opleiding.css';
 import { format } from 'date-fns';
 import Stars from './stars';
+import reposData from "../../data/repos.json";
+
+type Repo = {
+    id: number;
+    name: string;
+    description: string | null;
+    html_url: string;
+    stargazers_count: number;
+    fork: boolean;
+    language: string | null;
+    created_at: string;   // ISO date string
+    updated_at: string;
+    status?: "Completed" | "InProgress";
+    type?: "Activity" | "Project";
+};
+
+const repos: Repo[] = reposData as Repo[];
 
 const Opleiding = () => {
     const [date, setDate] = useState(new Date());
-
+    const  AmountOfPorjects = repos.filter(repo => String(repo.type) != "nothing" && String(repo.status) != "nothing");
     useEffect(() => {
         const interval = setInterval(() => {
         setDate(new Date());
@@ -29,7 +46,7 @@ const Opleiding = () => {
                 </div>
                 <div className="projects">
                     <Stars num={10}/>
-                    <p className="projs">12</p>
+                    <p className="projs">0{AmountOfPorjects.length - 1 }</p>
                     <p className="projects-txt">PROJECTS</p>
                 </div>
                 <div className="first">
