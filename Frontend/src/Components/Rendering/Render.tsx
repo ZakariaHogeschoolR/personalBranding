@@ -2,29 +2,35 @@ import '../Styles/Render.css';
 import { NavLink } from 'react-router-dom';
 import Stars from '../common/stars';
 
-type Activity = {
-    Id: Number;
-    Name: string;
-    Function: string;
-    Date: string;
-    Category: string;
-}
-
-type RenderProps = {
-    Activities: Activity[];
+type Repo = {
+    id: number;
+    name: string;
+    description: string | null;
+    html_url: string;
+    stargazers_count: number;
+    fork: boolean;
+    language: string | null;
+    created_at: string;   // ISO date string
+    updated_at: string;
+    status?: "Completed" | "InProgress";
+    type?: "Activity" | "Project";
 };
 
-const Render = ({Activities}: RenderProps) =>{
+type RenderProps = {
+    Repository: Repo[];
+};
+
+const Render = ({Repository}: RenderProps) =>{
     return (
         <section className="grider">
-            {Activities.map((activity: Activity) => (
-                <NavLink to={`/Activity/${activity.Id}`}>
+            {Repository.map((repo: Repo) => (
+                <NavLink to={`/Activity/${repo.id}`}>
                     <div className="RenderActivity">
                         <div className='renderActivityAgain'>
                             <Stars num={10}/>
-                            <p className="Name">{activity.Name}</p>
-                            <p className="Function">{activity.Function}</p>
-                            <p className="Date">{activity.Date}</p>
+                            <p className="Name">{repo.name}</p>
+                            <p className="Function"></p>
+                            <p className="Date">{repo.created_at}</p>
                         </div>
                     </div>
                 </NavLink>

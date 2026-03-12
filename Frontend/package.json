@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "fetch-repos": "tsx scripts/fetchRepos.ts",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run fetch-repos && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

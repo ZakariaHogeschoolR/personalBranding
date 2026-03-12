@@ -31,8 +31,7 @@ body {
 
 body::-webkit-scrollbar
 {
-  overflow-y: hidden;
-  overflow-x: hidden;
+  display: None;
 }
 
 NavLink, a{

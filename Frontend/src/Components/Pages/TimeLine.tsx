@@ -2,129 +2,30 @@ import Footer from '../Layout/Footer';
 import Sidebar from '../Layout/Sidebar';
 import Render from '../Rendering/RenderCard';
 import '../Styles/TimeLine.css';
+import reposData from "../../data/repos.json";
 
-type Activity = {
-    Id: Number;
-    Name: string;
-    Function: string;
-    Date: string;
-    Category: string;
-}
+type Repo = {
+    id: number;
+    name: string;
+    description: string | null;
+    html_url: string;
+    stargazers_count: number;
+    fork: boolean;
+    language: string | null;
+    created_at: string;   // ISO date string
+    updated_at: string;
+    status?: "Completed" | "InProgress";
+    type?: "Activity" | "Project";
+};
 
-const ActivitiesArray: Activity[] =
-[
-    {
-        Id: 1,
-        Name:"Software Developer",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 2,
-        Name:"Full-Stack Developer",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 3,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 4,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 5,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 6,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 7,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 8,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 9,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 10,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 11,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 12,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 13,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 14,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-    {
-        Id: 15,
-        Name:"Lorem Ipsum",
-        Function:"Wat is Lorem Ipsum?",
-        Date:"10-12-2023",
-        Category:"Lorem",
-    },
-];
+const repos: Repo[] = reposData as Repo[];
+
 const TimeLine = () => {
     return(
         <>
             <Sidebar fade={true}/>
                 <div className='Content-Cards'>
-                    <Render Activities={ActivitiesArray}/>
+                    <Render Repos = {repos} />
                 </div>
             {/* <!-- Compass rose — One Piece nautical motif --> */}
             <svg className="compass-rose" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">

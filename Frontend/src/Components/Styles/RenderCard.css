@@ -22,9 +22,10 @@
     width: 510px;
     height: 210px;
     padding: 10px;
+    padding-left: 0px;
     padding-top: -10px;
-    padding-left: 100px;
     padding-bottom: 50px;
+    margin-left: -10px;
     margin-bottom: 40px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -138,8 +139,8 @@
         height: 210px;
         padding: 10px;
         padding-top: -10px;
-        padding-left: 100px;
         padding-bottom: 50px;
+        margin-left: -10px;
         margin-bottom: 40px;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;

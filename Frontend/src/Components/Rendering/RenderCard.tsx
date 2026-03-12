@@ -1,35 +1,44 @@
 import '../Styles/RenderCard.css';
 
-type Activity = {
-    Id: Number;
-    Name: string;
-    Function: string;
-    Date: string;
-    Category: string;
-}
+type Repo = {
+    id: number;
+    name: string;
+    description: string | null;
+    html_url: string;
+    stargazers_count: number;
+    fork: boolean;
+    language: string | null;
+    created_at: string;   // ISO date string
+    updated_at: string;
+    status?: "Completed" | "InProgress";
+    type?: "Activity" | "Project";
+};
 
 type Prop = {
-    Activities: Activity[];
+    Repos: Repo[];
 }
 
-const RenderCard = ({Activities}:Prop) =>
+const RenderCard = ({Repos}:Prop) =>
 {
+    const sortedRepos = Repos.sort((a, b) => 
+        new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+    );
     return(
         <>
             <div className="content-timeline">
                 <p className='Time-Line'>TimeLine</p>
                 <section className="Time-Line-Line">
                 </section>
-                {Activities.map((Act) => 
+                {sortedRepos.map((Rep) => 
                     <div className="Activities-card">
                         <section className='point'></section>
                         <section className="vertical-Line"></section>
                         <div className="Activity-content">
                             <p>
-                                <span className="Activity-Name">{Act.Name}</span><br/>
-                                <span className="Activity-Function">{Act.Function}</span><br/>
-                                <span className="Activity-Date">{Act.Date}</span><br/>
-                                <span className="Activity-Category">{Act.Category}</span>
+                                <span className="Activity-Name">{Rep.name}</span><br/>
+                                <span className="Activity-Function"></span><br/>
+                                <span className="Activity-Date">{Rep.created_at}</span><br/>
+                                <span className="Activity-Category">{Rep.language}</span>
                             </p>
                         </div>
                     </div>
