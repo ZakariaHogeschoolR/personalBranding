@@ -6,7 +6,7 @@
   "scripts": {
     "fetch-repos": "tsx scripts/fetchRepos.ts",
     "dev": "vite",
-    "build": "npm run fetch-repos && vite build",
+    "build": "npm run vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
