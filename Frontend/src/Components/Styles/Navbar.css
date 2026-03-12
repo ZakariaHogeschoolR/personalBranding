@@ -57,7 +57,7 @@ p{
   max-height: 2px;
   width: 300px;;
   margin-left: -100px;
-  margin-top: 65px;
+  margin-top: 15px;
   color: var(--deep-blue);
   border-radius: 20px;
 }
@@ -121,6 +121,16 @@ p{
 
 .links li a.active {
   background-color: var(--beige);
+}
+
+.icons8{
+  position: absolute;
+  margin-top: 640px;
+  width: 350px;
+  margin-left: -120px;
+  text-align: center;
+  color: green;
+  background-color: beige;
 }
 
 @keyframes flashText {

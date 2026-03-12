@@ -17,6 +17,9 @@ const Sidebar = ({fade}: Props) =>
             <div className="searchBar">
                 <input className="search" type="text" placeholder='Search'/>
             </div>
+            <div className="icons8-sidebar">
+                <a target="_blank" href="https://icons8.com/icon/RejqnVMqk7VX/icons8">Icons8</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
         </div>
     );
 }

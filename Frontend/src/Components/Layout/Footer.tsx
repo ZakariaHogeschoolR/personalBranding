@@ -15,6 +15,9 @@ const Footer = ({fade}: Props) =>
                 <a className="footer-linkdin" href="https://www.linkedin.com/in/zakaria-tahiri-a41a753a9" target="_blank" rel="noopener noreferrer"><img src={Linkdin} width='30px' height='30px'/></a>
                 <a className="footer-email" href="mailto:zahari.tahiri@email.com" target="_blank" rel="noopener noreferrer"><img src={Email} width='30px' height='30px'/></a>
             </div>
+            <div className="icons">
+                <a target="_blank" href="https://icons8.com/icon/RejqnVMqk7VX/icons8">Icons8</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
         </footer>
     );
 }

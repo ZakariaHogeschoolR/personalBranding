@@ -65,6 +65,9 @@ const Navbar = () => {
           </ul>
         </div>
       )}
+      <div className="icons8">
+        <a target="_blank" href="https://icons8.com/icon/RejqnVMqk7VX/icons8">Icons8</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+      </div>
       <section className="Closing-Profile-line">&nbsp;</section>
       <FooterNav/>
     </nav>

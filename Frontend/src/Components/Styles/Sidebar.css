@@ -103,3 +103,13 @@
         border: none;
     }
 }
+
+.icons8-sidebar{
+    text-align: center;
+    width: 200px;
+    color: green;
+    background-color: beige;
+    margin-top: -25px;
+    margin-left: 1300px;
+
+}
