@@ -294,7 +294,7 @@
         box-shadow .25s, border-color .25s;
 }
 
-@media screen and (min-width: 1600px) and (max-width: 2600px) 
+@media screen and (min-width: 1600px)
 {
     .welkom-terug{
         color: var(--baby-blue);
