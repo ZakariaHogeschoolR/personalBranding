@@ -37,3 +37,7 @@ body::-webkit-scrollbar
 NavLink, a{
   text-decoration: none;
 }
+
+img{
+  border-radius: 10px;
+}

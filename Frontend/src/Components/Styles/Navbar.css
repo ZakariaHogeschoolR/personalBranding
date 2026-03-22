@@ -18,8 +18,12 @@
 }
 
 .Profile-Text {
+    font-family: 'Caveat', cursive;
     position: relative;
-    font-size: 30px;
+    font-size: 37px;
+    margin-left: -76px;
+    margin-top: -10px;
+    margin-bottom: 10px;
     color: var(--beige);
     display: inline-block;
 }
@@ -63,13 +67,15 @@ p{
 }
 
 .profile-foto{
-  height: 90px;
-  width: 90px;
-  border-radius: 50px;
+  height: 100px;
+  width: 150px;
+  margin-left: -25px;
+  border-radius: 20px;
   border: 4px solid var(--sand);
 }
 
 .links{
+  margin-top: -35px;
   width: 190px;
   text-align: center;
   margin-left: -50px;
@@ -107,6 +113,7 @@ p{
 .links li {
     padding: 10px;
     background-color: var(--beige);
+    font-family: 'Cormorant Garamond', serif;
     border-radius: 10px;
     border: 5px solid var(--deep-blue);
     margin: 0;

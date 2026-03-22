@@ -1,7 +1,7 @@
 
 import '../Styles/Navbar.css'
 import { NavLink } from 'react-router-dom';
-import Profile from '../../assets/react.webp';
+import Profile from '../../assets/profile.png';
 import FooterNav from './FooterNav';
 import { useLocation } from 'react-router-dom';
 const Navbar = () => {

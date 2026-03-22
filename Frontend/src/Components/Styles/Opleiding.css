@@ -238,11 +238,19 @@
     color: white;
     margin-left: 20px;
 }
+.zuiderpark-college-header
+{
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--sand);
+    margin-top: -30px;
+    margin-left: -20px;
+}
 
-.zuiderpark-college-header,
 .techniek-college-rotterdam-header,
 .hogeschool-rotterdam-header{
-    font-size: 13px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
     color: var(--sand);
     margin-top: -30px;
     margin-left: 20px;
@@ -251,48 +259,37 @@
 .zuiderpark-college-date
 .techniek-college-rotterdam-date,
 .hogeschool-rotterdam-date{
-    font-size: 13px;
     color: var(--sand);
     margin-top: -107px;
     margin-left: 20px;
 }
 
 .techniek-college-rotterdam-date{
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
     color: var(--sand);
-    margin-top: -107px;
+    margin-top: -135px;
     margin-left: 20px;
 }
 
 .hogeschool-rotterdam-date{
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
     color: var(--sand);
-    margin-top: -107px;
+    margin-top: -135px;
     margin-left: 20px;
 }
 
 .zuiderpark-college-date{
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
     color: var(--sand);
-    margin-top: -107px;
+    margin-top: -135px;
     margin-left: 20px;
 }   
-
-
-.Headersize3:hover,
-.Headersize2:hover,
-.Headersize1:hover
-{   
-    width: 300px;
-    height: 120px;
-    margin-top: 30px;
-    margin-left: -90px;
-    background-color: var(--deep-blue);
-    border-radius: 5px;
-    transition: transform .28s,
-        margin .45s,
-        box-shadow .25s, border-color .25s;
-}
 
 @media screen and (min-width: 1600px)
 {
@@ -574,20 +571,4 @@
         margin-top: -107px;
         margin-left: 20px;
     }   
-
-
-    .Headersize3:hover,
-    .Headersize2:hover,
-    .Headersize1:hover
-    {   
-        width: 300px;
-        height: 120px;
-        margin-top: 30px;
-        margin-left: -90px;
-        background-color: var(--deep-blue);
-        border-radius: 5px;
-        transition: transform .28s,
-            margin .45s,
-            box-shadow .25s, border-color .25s;
-    }
 }

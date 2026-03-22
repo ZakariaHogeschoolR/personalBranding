@@ -145,9 +145,9 @@ const ActivityPage = () => {
                 <div className="Id"><span className="star">☆</span> #{id}</div>
                 <div className="date-time">{created_at[0]}</div>
                 <div className="Title"><em>{repo[0].name.toUpperCase()}</em></div>
-                <div className="Function-top">{repo[0].description}</div>
+                <div className="Function-top"></div>
                 <section className="border-line"></section>
-                <div className="Tag1">{repo[0].language?.toUpperCase()}</div>
+                <div className="Tag1">{repo[0].language?.toUpperCase() ?? "NONE"}</div>
                 <div className="Tag2">#{repo[0].default_branch.toUpperCase()}</div>
                 <div className="Tag3">{created_at[0].split("-")[0]}</div>
             </div>
@@ -157,7 +157,7 @@ const ActivityPage = () => {
                 <div className="Function-display"><span className='function-label'>CREATED</span><br/>{created_at[0]}</div>
             </div>
             <div className='third-layer'>
-                <div className="About"><p className='about-tile'><em>About this {repo[0].type}</em></p><section className='border-line-second-layer'>&nbsp;</section>{repo[0].description}</div>
+                <div className="About"><p className='about-tile'><em>About this {repo[0].type}</em></p><section className='border-line-second-layer'>&nbsp;</section>{repo[0].description ?? "No description available at the moment."}</div>
                 <div className='side-column'>
                     <div className='Status'><span className='status-label'>STATUS</span><br/>{repo[0].status}</div>
                     <div className="Role"><span className='role-label'>ROLE</span><br/>Software Developer</div>

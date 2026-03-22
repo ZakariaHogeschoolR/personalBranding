@@ -1,5 +1,5 @@
 import '../Styles/Sidebar.css';
-import Profile from '../../assets/react.webp';
+import Profile from '../../assets/profile.png';
 import { NavLink} from 'react-router-dom';
 
 type Props = {

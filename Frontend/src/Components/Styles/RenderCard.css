@@ -65,20 +65,32 @@
 }
 
 .Activity-Name{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
     margin-left: 10px;
     color: rgba(var(--sand-rgba), 0.7);
 }
 
 .Activity-Function{
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    font-weight: 700;
     color: rgba(var(--sand-rgba), 0.7);
 }
 
 .Activity-Date{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    margin-left: 250px;
+    margin-bottom: 700px;
     color: rgba(var(--sand-rgba), 0.7);
 
 }
 
 .Activity-Category{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: 700;
     color: rgba(var(--sand-rgba), 0.7);
 }
 
@@ -94,6 +106,8 @@
 }
 
 .Time-Line{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
     margin-left: 200px;
     margin-top: -200px;
     color: var(--beige);
