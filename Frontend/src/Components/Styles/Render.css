@@ -185,3 +185,97 @@
   margin-left: 25px;
   margin-top: -20px;
 }
+
+@media screen and (max-width: 1024px) {
+    .Activities-Projects {
+        margin-left: 20px;
+    }
+ 
+    .dashing-borderline-activity-projects {
+        width: calc(100vw - 250px);
+        margin-left: 20px;
+    }
+ 
+    .Activity {
+        margin-left: 20px;
+    }
+ 
+    .Projects {
+        margin-left: 20px;
+    }
+ 
+    .Container-activities {
+        margin-left: 20px;
+    }
+ 
+    .Activities {
+        width: calc(100vw - 60px);
+    }
+ 
+    .Container-projects {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 20px;
+        gap: 12px;
+    }
+ 
+    .ProjectsItems-First,
+    .ProjectsItems-Second {
+        width: 100%;
+    }
+ 
+    .HeaderCompleted,
+    .HeaderInProgress {
+        width: 100%;
+        margin-left: -10px;
+    }
+}
+ 
+/* Mobiel */
+@media screen and (max-width: 600px) {
+    .Activities-Projects {
+        margin-left: 10px;
+    }
+ 
+    .dashing-borderline-activity-projects {
+        width: calc(100vw - 80px);
+        margin-left: 10px;
+    }
+ 
+    .Activity {
+        margin-left: 10px;
+    }
+ 
+    .Projects {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+ 
+    .Container-activities {
+        margin-left: 10px;
+    }
+ 
+    .Activities {
+        width: calc(100vw - 30px);
+    }
+ 
+    .Container-projects {
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+ 
+    .ProjectsItems-First,
+    .ProjectsItems-Second {
+        width: 100%;
+    }
+ 
+    .HeaderCompleted,
+    .HeaderInProgress {
+        width: 100%;
+        margin-left: -10px;
+        padding-left: 20px;
+    }
+ 
+    .RenderActivity {
+        width: calc(100vw - 60px);
+    }
+}
