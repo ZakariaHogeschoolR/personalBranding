@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 import Profile from '../../assets/profile.png';
 import FooterNav from './FooterNav';
 import { useLocation } from 'react-router-dom';
+import file from '../../../public/Cirriculum Vitea Zakaria Tahiri.pdf';
+
 const Navbar = () => {
   const location = useLocation();
   const isAboutPage = location.pathname === "/About" || location.pathname === "/TimeLine";
@@ -32,9 +34,12 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/TimeLine">
+              <a 
+                href={`${import.meta.env.BASE_URL}Cirriculum%20Vitea%20Zakaria%20Tahiri.pdf`} 
+                download="Zakaria_Tahiri_CV.pdf"
+              >
                 CV
-              </NavLink>
+              </a>
             </li>
           </ul>
         </div>

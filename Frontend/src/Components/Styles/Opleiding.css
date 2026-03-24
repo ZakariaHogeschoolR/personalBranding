@@ -1,5 +1,6 @@
 
 .welkom-terug{
+    align-items: flex-end;
     color: var(--baby-blue);
     width: 500px;
     height: 100px;
@@ -44,8 +45,11 @@
 
 .date-today{
     color: var(--baby-blue);
-    width: 500px;
-    height: 100px;
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    min-height: 100px;
+    justify-content: right;
     text-align: right;
     margin-top: -85px;
     margin-left: 500px;
@@ -203,7 +207,6 @@
     margin-left: -110px;
     background-color: var(--deep-blue);
     border-radius: 5px;
-
 }
 
 .Header3,
