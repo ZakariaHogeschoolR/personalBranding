@@ -1,13 +1,18 @@
+.content-flex{
+    padding-top: 40px;
+    margin-left: -15px;
+}
+
 .FirstName{
-    margin-top: 20px;  
-    margin-left: -50px;
+    margin-top: -30px;  
+    margin-left: -20px;
     font-size: 50px;
     color: var(--baby-blue);
     font-family: 'Caveat', cursive;
 }
 
 .LastName{
-    margin-left: -50px;
+    margin-left: -20px;
     font-size: 50px;
     color: var(--sand);
     font-family: 'Caveat', cursive;
@@ -15,7 +20,7 @@
 
 .function{
     margin-top: 10px;
-    margin-left: -50px;
+    margin-left: -20px;
     color: var(--baby-blue);
     font-family: 'Caveat', cursive;
     font-size: 40px;
@@ -26,7 +31,7 @@
     position: absolute;
     border-radius: 20px;
     margin-top: -20px;
-    margin-left: 200px;
+    margin-left: 400px;
     width: 1125px;
     min-height: 610px; 
     background-color: var(--darker-blue);
@@ -34,8 +39,7 @@
 }
 
 .star1{
-    margin-top: 65px;
-    margin-left: 220px;
+    margin-left: 420px;
     padding-left: 0px;
     width: 1085px;
     background-color: var(--deep-blue);
@@ -52,7 +56,7 @@
     content: '';
     position: absolute;
     top: 0; 
-    left: 0; 
+    left: 200; 
     right: 0; 
     bottom: 0;
     background: linear-gradient(
@@ -67,7 +71,7 @@
 }
 
  .hinge {
-    margin-left: 200px;
+    margin-left: 400px;
     margin-top: 10px;
     height: 15px;
     width: 1125px;
@@ -81,7 +85,7 @@
     flex-direction: column;
     padding-left: 50px;
     margin-top: -580px;
-    margin-left: 220px;
+    margin-left: 420px;
     margin-right: 300px;
     max-height: 580px;
     width: 1085px;
@@ -97,8 +101,8 @@
 }
 
 .about-me-title{
-    margin-top: 50px;
-    margin-left: 0px;
+    margin-top: 0px;
+    margin-left: -20px;
     color: var(--baby-blue);
     font-family: 'Caveat', cursive;
 }
@@ -106,6 +110,7 @@
 .about-me-text{
     max-height: 200px;
     margin-top: -30px;
+    margin-left: -20px;
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
     color: var(--sand);
@@ -123,7 +128,7 @@
 .TechStack{
     width: 1125px;
     height: 500px;
-    margin-left: 200px;
+    margin-left: 400px;
     margin-top: -10px;
     padding-top: 250px;
     border-radius: 20px;
@@ -261,7 +266,7 @@
     rotate: 45deg;
     position: absolute;
     margin-left: 600px;
-    margin-top: -250px;
+    margin-top: -200px;
     width: 300px;
     height: 300px;
     opacity: 0.5;
@@ -272,7 +277,7 @@
     position: absolute;
     height: 90px;
     width: 90px;
-    margin-top: -270px;
+    margin-top: -220px;
     margin-left: -100px;
     border-radius: 50px;
     opacity: 0.5;

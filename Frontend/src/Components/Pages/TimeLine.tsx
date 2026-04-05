@@ -1,5 +1,4 @@
-import Footer from '../Layout/Footer';
-import Sidebar from '../Layout/Sidebar';
+import Navbar from '../Navbar/Navbar';
 import Render from '../Rendering/RenderCard';
 import '../Styles/TimeLine.css';
 import reposData from "../../data/repos.json";
@@ -23,10 +22,10 @@ const repos: Repo[] = reposData as Repo[];
 const TimeLine = () => {
     return(
         <>
-            <Sidebar fade={true}/>
-                <div className='Content-Cards'>
-                    <Render Repos = {repos} />
-                </div>
+            <Navbar/>
+            <div className='Content-Cards'>
+                <Render Repos = {repos} />
+            </div>
             {/* <!-- Compass rose — One Piece nautical motif --> */}
             <svg className="compass-rose" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 {/* <!-- Outer ring --> */}
@@ -49,7 +48,6 @@ const TimeLine = () => {
                 <circle cx="7"  cy="45" r="1" fill="#c8b898" opacity="0.5"/>
                 <circle cx="83" cy="45" r="1" fill="#c8b898" opacity="0.5"/>
             </svg>
-            <Footer fade={true}/>
         </>
     );
 }

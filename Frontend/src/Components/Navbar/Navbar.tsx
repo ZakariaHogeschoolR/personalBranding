@@ -8,7 +8,7 @@ import file from '../../../public/Cirriculum Vitea Zakaria Tahiri.pdf';
 
 const Navbar = () => {
   const location = useLocation();
-  const isAboutPage = location.pathname === "/About" || location.pathname === "/TimeLine";
+  const isAboutPage = location.pathname === "===";
   return (
     <nav className={`Navbar ${isAboutPage ? "fade-navbar" : ""}`}>
       <img className="profile-foto" src={Profile}/>
@@ -18,6 +18,11 @@ const Navbar = () => {
       {isAboutPage === false &&(
         <div className="links">
           <ul>
+            <li>
+              <NavLink to="/contact">
+                CONTACT
+              </NavLink>
+            </li>
             <li>
               <NavLink to="/">
                 HOME

@@ -33,7 +33,7 @@ const Opleiding = () => {
     return (
         <>
             <div className="welkom-terug">
-                <p className="txt-welkom"><span className="star">☆</span> <span className="greetings">Welkom!</span></p>
+                <p className="txt-welkom"><span className="star"></span> <span className="greetings">Welkom!</span></p>
                 <h1 className="portofolio-txt"><span className="my">My</span> <span className="portofolio-content"><em>Portofolio</em></span></h1>
                 <p className="date-today">{format(date, 'dd/MMMM/yyyy')}<br/>{format(date, 'HH:mm:ss')}<p className="place"></p></p>
                 <section className="borderline-greetings">&nbsp;<section className="second-borderline">&nbsp;</section></section>

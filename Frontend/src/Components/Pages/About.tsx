@@ -13,7 +13,6 @@ const About = () => {
   }, []);
   return (
     <>
-      <Sidebar fade={false}/>
       <div className="content-flex">
         <div className="laptop-screen"></div>
         <div className='content-about-page'>
@@ -68,7 +67,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer fade={false}/>
     </>
   );
 }

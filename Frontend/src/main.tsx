@@ -9,6 +9,7 @@ import Home from './Components/Pages/Home';
 import NotFound from './Components/Pages/NotFound';
 import About from './Components/Pages/About';
 import TimeLine from './Components/Pages/TimeLine';
+import Contact from './Components/Pages/Contact';
 import ActivityLayout from './Components/ActivityLayout/ActivityLayout';
 
 const router = createHashRouter([
@@ -21,6 +22,7 @@ const router = createHashRouter([
         children: [
           { index: true, element: <Home /> },
           { path: '/about', element: <About /> },
+          { path: '/contact', element: <Contact /> },
           { path: '/TimeLine', element: <TimeLine /> },
           { path: '*', element: <NotFound /> },
         ],
