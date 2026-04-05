@@ -1,0 +1,113 @@
+.Contact-Me{
+    color: var(--beige);
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 440px;
+}
+.Contact-Container{
+    padding-top: 50px;
+    margin-left: 425px;
+}
+.Contact-Form{
+    border-radius: 20px;
+    background-color: var(--deep-blue);
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 1410px;
+    height: 800px;
+}
+
+.Contact-Subject{
+    margin-top: 50px;
+}
+.Contact-Subject-Value{
+    margin-top: 50px;
+}
+
+.Contact-TextArea,
+.Contact-Subject{
+    font-family: 'Caveat', cursive;
+    color: var(--beige);
+    font-weight: 700;
+    font-size: 30px;
+}
+.Contact-TextArea-Value,
+.Contact-Subject-Value{
+    padding: 10px;
+    border-radius: 50px;
+    height: 40px;
+    width: 1000px;
+    font-family: 'Caveat', cursive;
+    color: var(--deep-blue);
+    font-weight: 700;
+    border: 5px solid white;
+}
+
+.Contact-TextArea{
+    position: absolute;
+    margin-left: -2px;
+    margin-top: 50px;
+}
+.Contact-TextArea-Value{
+    position: absolute;
+    margin-left: 146px;
+    padding: 25px;
+    margin-top: 50px;
+    min-width: 1000px;
+    min-height: 400px;
+    max-width: 1000px;
+    max-height: 400px;
+}
+
+.Contact-Verzenden-Submit{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 0px;
+    width: 1200px;
+    height: 50px;
+    background-color: var(--beige);
+    border: 2px solid #f5f5dc;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    /* border: 5px solid var(--deep-blue); */
+    color: var(--deep-blue);
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Enabled button */
+.Contact-Verzenden-Submit:not(:disabled) {
+    outline: 3px solid #f5f5dc;   /* outer sharp ring */
+    outline-offset: 4px;  
+    box-shadow:
+    0 0 5px #f5f5dc,
+    0 0 10px #f5f5dc,
+    0 0 20px #f5f5dc;
+    animation: in-out 16s infinite;
+    cursor: pointer;
+}
+
+/* Hover ONLY when enabled */
+.Contact-Verzenden-Submit:not(:disabled):hover {
+    background-color: var(--sand);
+    
+}
+@keyframes in-out {
+    0%{
+        border-radius: 10px;
+    }
+
+    50%{
+        border-radius: 50px;
+    }
+    100%{
+        border-radius: 10px;
+    }
+}
