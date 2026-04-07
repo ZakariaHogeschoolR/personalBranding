@@ -1,0 +1,449 @@
+
+.welkom-terug{
+    align-items: flex-end;
+    color: var(--baby-blue);
+    width: 500px;
+    height: 100px;
+    margin-left: 440px;
+    margin-bottom: -0px;
+}
+
+.star{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    color: var(--green);
+}
+
+.greetings{
+    margin-left: 10px;
+}
+
+.txt-welkom{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Caveat', cursive;
+    margin-left: -60px;
+}
+
+.portofolio-txt{
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+.my{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    color: var(--darker-blue);
+}
+
+.portofolio-content{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    margin-left: 10px;
+    color: var(--darker-blue);
+}
+
+.date-today{
+    color: var(--baby-blue);
+    width: 100%;
+    min-width: 500px;
+    height: 100%;
+    min-height: 100px;
+    justify-content: right;
+    text-align: right;
+    margin-top: -45px;
+    margin-left: 800px;
+    margin-bottom: -40px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+}
+
+.place{
+    color: var(--baby-blue);
+    width: 500px;
+    height: 100px;
+    text-align: right;
+    margin-top: -35px;
+    margin-left: 2px;
+    margin-bottom: -0px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+}
+
+.borderline-greetings{
+    width: 60px;
+    height: 1px;
+    border-radius: 10px;
+    margin-left: -50px;
+    background-color: var(--darker-blue);
+}
+.second-borderline{
+    width: 1305px;
+    height: 1.5px;
+    border-radius: 10px;
+    margin-top: -18.5px;
+    margin-left: 50px;
+    background-color: var(--baby-blue);
+}
+
+.Work-experience{
+    display: flex;
+    flex-direction: row;
+    margin-top: 9cqb;
+    margin-left: 390px;
+    color: var(--baby-blue);
+    gap: 20px;
+}
+
+.projects,
+.first,
+.second,
+.experience{
+    padding: 15px;
+    padding-top: 20px;
+    width: 315px;
+    height: 125px;
+    font-size: 35px;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(var(--deep-blue-rgba), 1);
+    border: 2px solid rgba(var(--baby-blue-rgba), .15);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.projects:hover,
+.first:hover,
+.second:hover,
+.experience:hover{
+    margin-top: -10px;
+    padding: 15px;
+    padding-top: 20px;
+    width: 315px;
+    height: 125px;
+    font-size: 35px;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(var(--deep-blue-rgba), 1);
+    border-radius: 10px;
+    box-shadow: 0 16px 48px rgba(91, 200, 212, .4);
+    transition: transform .28s,
+        margin .45s,
+        box-shadow .25s, border-color .25s;
+    overflow: hidden;
+}
+
+.projects-txt,
+.first-txt,
+.second-txt,
+.experience-txt{
+    padding: 0px;
+    padding-top: 0px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Cormorant Garamond', serif;
+    color: rgba(var(--muted), .4);
+    border-radius: 10px;
+}
+
+.projs,
+.firsts,
+.seconds,
+.yrs{
+    margin-top: -160px;
+    margin-left: 10px;  
+    font-size: 40px;  
+    font-family: 'Caveat', cursive;
+    font-weight: 700; 
+}
+
+.opleiding{
+    margin-left: 380px;
+    margin-top: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Cormorant Garamond', serif;
+    color: rgba(var(--deep-blue-rgba), 0.5);
+
+}
+
+.numbering{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    color: var(--baby-blue);
+}
+
+.dashing-borderline{
+    flex: 1;
+    margin-top: -11px;
+    width: 1185px;
+    height: 0.9px;
+    margin-left: 175px;
+    background: repeating-linear-gradient(90deg, var(--baby-blue) 0px, var(--baby-blue) 9px, transparent 6px, transparent 0px);
+}
+
+.Header{
+    margin-left: 500px;
+}
+
+.sectionHeader{
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    gap: 160px;
+}
+
+.Headersize3,
+.Headersize2,
+.Headersize1
+{   
+    width: 407px;
+    height: 160px;
+    margin-top: 20px;
+    margin-left: -110px;
+    background-color: var(--deep-blue);
+    border-radius: 5px;
+}
+
+.Header3,
+.Header2,
+.Header1{
+    width: 400px;
+    height: 110px;
+    margin-top: -120px;
+    border-radius: 10px;
+    background-color: rgba(var(--deep-blue-rgba), .7);
+    transition: transform .3s
+        cubic-bezier(.34, 1.56, .64, 1);
+}
+
+.Header3{
+    margin-top: -120px;
+    border-radius: 20px;
+    background-color: rgba(var(--deep-blue-rgba), .7) ;
+}
+
+.Header2{
+    margin-top: -120px;
+    border-radius: 10px;
+    background-color: rgba(var(--deep-blue-rgba), .7) ;
+}
+
+.zuiderpark-college,
+.techniek-college-rotterdam,
+.hogeschool-rotterdam{
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    margin-top: 0px;
+    color: var(--beige);
+    margin-left: 20px;
+}
+.zuiderpark-college-header
+{
+    font-size: 28px;
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--sand);
+    margin-top: 20px;
+    margin-left: -34px;
+}
+
+.techniek-college-rotterdam-header{
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--sand);
+    margin-top: 20px;
+    margin-left: 28px;
+}
+.hogeschool-rotterdam-header{
+    font-size: 27px;
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--sand);
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+.zuiderpark-college-date
+.techniek-college-rotterdam-date,
+.hogeschool-rotterdam-date{
+    color: var(--sand);
+}
+
+.techniek-college-rotterdam-date{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    color: var(--sand);
+    margin-top: -135px;
+    margin-left: 20px;
+}
+
+.hogeschool-rotterdam-date{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    color: var(--sand);
+    margin-top: -135px;
+    margin-left: 20px;
+}
+
+.zuiderpark-college-date{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Caveat', cursive;
+    color: var(--sand);
+    margin-top: -135px;
+    margin-left: 20px;
+}   
+
+@media screen and (max-width: 1024px) {
+    .welkom-terug {
+        margin-left: 20px;
+        width: calc(100% - 40px);
+    }
+ 
+    .portofolio-txt {
+        margin-left: 0;
+    }
+ 
+    .date-today {
+        margin-left: 0;
+        min-width: unset;
+        width: auto;
+        margin-top: -85px;
+        position: absolute;
+        right: 20px;
+    }
+ 
+    .second-borderline {
+        width: calc(100vw - 120px);
+    }
+ 
+    .Work-experience {
+        margin-left: 20px;
+        flex-wrap: wrap;
+    }
+ 
+    .projects,
+    .first,
+    .second,
+    .experience {
+        width: calc(50% - 10px);
+    }
+ 
+    .projects:hover,
+    .first:hover,
+    .second:hover,
+    .experience:hover {
+        width: calc(50% - 10px);
+    }
+ 
+    .opleiding {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+ 
+    .dashing-borderline {
+        margin-left: 0;
+        width: auto;
+        flex: 1;
+    }
+ 
+    .Header {
+        margin-left: 20px;
+    }
+ 
+    .sectionHeader {
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+ 
+    .Headersize1,
+    .Headersize2,
+    .Headersize3 {
+        width: calc(50% - 10px);
+        margin-left: 0;
+    }
+ 
+    .Header1,
+    .Header2,
+    .Header3 {
+        width: 100%;
+    }
+}
+ 
+/* Mobiel */
+@media screen and (max-width: 600px) {
+    .welkom-terug {
+        margin-left: 10px;
+        width: calc(100% - 20px);
+    }
+ 
+    .date-today {
+        position: static;
+        margin-top: 8px;
+        margin-left: 0;
+        text-align: left;
+        min-width: unset;
+        width: auto;
+    }
+ 
+    .second-borderline {
+        width: calc(100vw - 80px);
+    }
+ 
+    .Work-experience {
+        margin-left: 10px;
+        flex-direction: column;
+    }
+ 
+    .projects,
+    .first,
+    .second,
+    .experience {
+        width: 100%;
+    }
+ 
+    .projects:hover,
+    .first:hover,
+    .second:hover,
+    .experience:hover {
+        width: 100%;
+    }
+ 
+    .opleiding {
+        margin-left: 10px;
+    }
+ 
+    .Header {
+        margin-left: 10px;
+    }
+ 
+    .sectionHeader {
+        flex-direction: column;
+        gap: 12px;
+    }
+ 
+    .Headersize1,
+    .Headersize2,
+    .Headersize3 {
+        width: 100%;
+        margin-left: 0;
+    }
+ 
+    .Header1,
+    .Header2,
+    .Header3 {
+        width: 100%;
+    }
+}
