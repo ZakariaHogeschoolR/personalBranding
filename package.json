@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b gh-pages --dotfiles"
+    "deploy": "gh-pages -d dist -r https://github.com/ZakariaHogeschoolR/personalBranding.git"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
@@ -36,5 +36,5 @@
   "overrides": {
     "vite": "^8.0.0-beta.13"
   },
-  "homepage": "https://ZakariaHogeschoolR.github.io/personalBranding"
+  "homepage": "https://zakariahogeschoolr.github.io/personalBranding"
 }
